@@ -1,0 +1,10 @@
+ ---
+ applications:
+- name: manulife-service
+   memory: 1G
+   instances: 1
+   domain: cfapps.io
+   host: manulife-service
+   buildpack: https://github.com/cloudfoundry/java-buildpack
+   path: target/manulife-api-0.0.1-SNAPSHOT.jar
+   port: 8080

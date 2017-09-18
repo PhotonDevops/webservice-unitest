@@ -1,0 +1,5 @@
+service:
+  image: photondevops/photon-devops:springboot-service.1.0
+  ports:
+    #Host:Docker
+    - "6060:8080"
